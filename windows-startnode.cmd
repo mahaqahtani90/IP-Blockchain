@@ -1,0 +1,1 @@
+geth --networkid 4224 --mine --minerthreads 2 --datadir "." --nodiscover --rpc --rpcport "8545" --port "30303" --rpccorsdomain "*" --nat "any" --rpcapi eth,web3,personal,net --unlock 30ec3abf22440c22a7214fd97c953b6b79fc9b75 --password ./password.sec --allow-insecure-unlock
